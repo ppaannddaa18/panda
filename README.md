@@ -11,6 +11,7 @@ panda/
 │   ├── voucher/              # 凭证处理
 │   ├── report/               # 报表工具
 │   ├── pdf/                  # PDF 工具箱（合并/拆分）
+│   ├── excel/                # Excel 工具（多值搜索）
 │   └── utils/                # 公共函数
 ├── data/                     # 输入数据（不上传敏感信息）
 ├── output/                   # 输出结果
@@ -37,6 +38,11 @@ panda/
 4. 启动 PDF 工具箱：
    ```bash
    python tools/pdf/pdf_tool.py
+   ```
+
+5. 启动 Excel 多值搜索工具：
+   ```bash
+   python tools/excel/multi_value_search.py
    ```
 
 ## 注意事项
