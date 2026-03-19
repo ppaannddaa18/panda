@@ -10,6 +10,7 @@ panda/
 │   ├── invoice/              # 发票相关
 │   ├── voucher/              # 凭证处理
 │   ├── report/               # 报表工具
+│   ├── pdf/                  # PDF 工具箱（合并/拆分）
 │   └── utils/                # 公共函数
 ├── data/                     # 输入数据（不上传敏感信息）
 ├── output/                   # 输出结果
@@ -31,6 +32,11 @@ panda/
 3. 运行工具：
    ```bash
    python tools/invoice/process_invoices.py
+   ```
+
+4. 启动 PDF 工具箱：
+   ```bash
+   python tools/pdf/pdf_tool.py
    ```
 
 ## 注意事项
