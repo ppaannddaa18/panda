@@ -1,0 +1,17 @@
+# 数据处理
+pandas>=2.0.0
+openpyxl>=3.1.0
+xlrd>=2.0.0
+
+# PDF 处理（发票等）
+PyPDF2>=3.0.0
+pdfplumber>=0.10.0
+
+# 日期时间
+python-dateutil>=2.8.0
+
+# 命令行工具（可选）
+click>=8.0.0
+
+# 配置文件（可选）
+python-dotenv>=1.0.0

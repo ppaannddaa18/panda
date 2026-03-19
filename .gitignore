@@ -1,0 +1,34 @@
+# 虚拟环境
+venv/
+.venv/
+env/
+
+# Python 缓存
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# 敏感财务数据 - 重要！不要上传
+data/*.xlsx
+data/*.xls
+data/*.csv
+data/*.json
+output/*
+
+# 保留目录结构但忽略内容
+!data/.gitkeep
+!output/.gitkeep
+
+# 系统文件
+.DS_Store
+Thumbs.db
+
+# 日志
+*.log
