@@ -256,8 +256,8 @@ class PDFToolApp:
         ).pack(fill=tk.X, pady=5)
 
         # 拆分模式选择
-        mode_frame = ttk.LabelFrame(frame, text="拆分模式", padding=10)
-        mode_frame.pack(fill=tk.X, pady=10)
+        mode_frame = ttk.LabelFrame(frame, text="拆分模式")
+        mode_frame.pack(fill=tk.X, pady=10, padx=10)
 
         self.split_mode = tk.StringVar(value="range")
 
