@@ -31,4 +31,4 @@ output/*
 Thumbs.db
 
 # 日志
-*.log
+*.log.claude/settings.local.json
