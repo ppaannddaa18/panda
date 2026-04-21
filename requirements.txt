@@ -6,6 +6,7 @@ xlrd>=2.0.0
 # PDF 处理（发票等）
 PyPDF2>=3.0.0
 pdfplumber>=0.10.0
+PyMuPDF>=1.23.0
 
 # PDF 工具 GUI
 ttkbootstrap>=1.10.0
