@@ -3,7 +3,8 @@
     "allow": [
       "Bash(C:/Users/30726/OneDrive/panda/.venv/Scripts/python.exe -c \"import fitz; print\\('fitz version:', fitz.__version__\\)\")",
       "Bash(python *)",
-      "Bash(timeout 3s)"
+      "Bash(timeout 3s)",
+      "mcp__ide__getDiagnostics"
     ]
   }
 }

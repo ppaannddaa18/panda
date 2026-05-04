@@ -31,4 +31,13 @@ output/*
 Thumbs.db
 
 # 日志
-*.log.claude/settings.local.json
+*.log
+
+# Claude
+.claude/settings.local.json
+
+# 构建产物
+dist/
+build/
+*.exe
+*.pkg
