@@ -1,0 +1,16 @@
+{
+    "用友": {
+        "date": "日期",
+        "debit": "借方",
+        "credit": "贷方",
+        "voucher": "凭证号",
+        "summary": "摘要"
+    },
+    "金蝶": {
+        "date": "日期",
+        "debit": "借方金额",
+        "credit": "贷方金额",
+        "voucher": "凭证字号",
+        "summary": "摘要"
+    }
+}

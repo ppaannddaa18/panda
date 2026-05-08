@@ -1,0 +1,30 @@
+{
+    "工商银行": {
+        "date": "交易日期",
+        "debit": "支出",
+        "credit": "收入",
+        "balance": "余额",
+        "summary": "摘要"
+    },
+    "建设银行": {
+        "date": "交易时间",
+        "debit": "借方",
+        "credit": "贷方",
+        "balance": "余额",
+        "summary": "交易摘要"
+    },
+    "农业银行": {
+        "date": "交易日期",
+        "debit": "支出金额",
+        "credit": "存入金额",
+        "balance": "账户余额",
+        "summary": "交易摘要"
+    },
+    "中国银行": {
+        "date": "交易日期",
+        "debit": "借方发生额",
+        "credit": "贷方发生额",
+        "balance": "余额",
+        "summary": "摘要"
+    }
+}
