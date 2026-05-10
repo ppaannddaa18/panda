@@ -1,0 +1,11 @@
+{
+  "templates": [
+    {
+      "name": "标准收入成本表",
+      "description": "标准收入成本表模板",
+      "account_column_keywords": ["科目", "项目", "名称"],
+      "month_column_pattern": "{月份}",
+      "data_start_row": 1
+    }
+  ]
+}
