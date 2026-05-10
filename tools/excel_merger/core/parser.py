@@ -1,10 +1,9 @@
 """Excel 解析器"""
 
-import os
 import re
 from pathlib import Path
 from typing import List, Optional, Dict, Any
-from decimal import Decimal
+from decimal import Decimal, InvalidOperation
 
 import pandas as pd
 
@@ -17,7 +16,7 @@ from excel_merger.config import AppConfig, DEFAULT_ACCOUNT_MAPPING
 class ExcelParser:
     """Excel 文件解析器"""
 
-    def __init__(self, config: AppConfig = None):
+    def __init__(self, config: Optional[AppConfig] = None):
         """
         初始化解析器
 
@@ -307,6 +306,6 @@ class ExcelParser:
                 return Decimal("0.00")
             try:
                 return Decimal(value).quantize(Decimal("0.01"))
-            except:
+            except (InvalidOperation, ValueError):
                 return Decimal("0.00")
         return Decimal("0.00")
