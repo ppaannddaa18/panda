@@ -18,8 +18,8 @@ class MergeResult:
     @property
     def total_amount(self) -> float:
         """总金额"""
-        from decimal import Decimal
-        return float(sum(r.amount for r in self.records))
+        total = sum(r.amount for r in self.records)
+        return float(total) if total else 0.0
 
     @property
     def company_count(self) -> int:
