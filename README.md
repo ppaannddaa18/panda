@@ -10,6 +10,7 @@
 | PDF OCR 识别 | 批量识别 PDF 中的文字，支持框选区域 |
 | Excel 多值搜索 | 多条件组合搜索 Excel 数据 |
 | 发票处理 | 批量处理发票数据，金额汇总统计 |
+| Excel 多表合并 | 自动合并多个 Excel 文件，智能匹配科目 |
 
 ## 工具详情
 
@@ -66,6 +67,22 @@ python tools/excel/multi_value_search.py
 python tools/invoice/process_invoices.py
 ```
 
+### 5. Excel 多表合并工具箱 (`tools/excel_merger/`)
+
+功能特性：
+- 自动读取文件夹内所有格式相近的 Excel 文件
+- 智能识别公司名称（从文件名）
+- 智能识别月份（列标题、Sheet名）
+- 内置常用科目映射表
+- 支持自定义科目映射
+- 生成科目×公司月份透视表
+- 导出未匹配项报告
+
+启动方式：
+```bash
+python -m tools.excel_merger.main
+```
+
 ## 目录结构
 
 ```
@@ -74,10 +91,12 @@ panda/
 │   ├── pdf/              # PDF 工具箱
 │   ├── PDFOCR/           # PDF OCR 识别
 │   ├── excel/            # Excel 多值搜索
+│   ├── excel_merger/     # Excel 多表合并
 │   ├── invoice/          # 发票处理
 │   ├── report/           # 报表工具（待开发）
 │   ├── voucher/          # 凭证处理（待开发）
 │   └── utils/            # 公共函数库
+├── tests/                # 单元测试
 ├── data/                 # 输入数据
 ├── output/               # 输出结果
 ├── dist/                 # 打包输出
