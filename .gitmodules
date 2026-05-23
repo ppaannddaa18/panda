@@ -1,0 +1,3 @@
+[submodule "tools/PDFOCR"]
+	path = tools/PDFOCR
+	url = https://github.com/ppaannddaa18/PDF-OCR.git
